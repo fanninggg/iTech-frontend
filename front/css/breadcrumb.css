@@ -1,0 +1,22 @@
+.breadcrumb {
+  display: flex;
+  margin: 24px 0;
+  font-weight: 500;
+}
+
+.breadcrumb a {
+  color: #959595;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: #626262;
+}
+
+.breadcrumb span {
+  color: #000;
+}
+
+.breadcrumb-divider {
+  margin: 0 8px;
+}
