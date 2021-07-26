@@ -30,7 +30,7 @@ const insertRecipeIngredients = (ingredients) => {
 		`
 			<div class="recipe-ingredient">
 				<p>${ingredient.display.split(' ').slice(0, 2).join(' ')}</p>
-				<h3>${ingredient.name}</h3>
+				<h3>${ingredient.name[0].toUpperCase() + ingredient.name.substring(1)}</h3>
 			</div>
 		`
 		document.getElementById('ingredients-list').insertAdjacentHTML('beforeend', ingredientHTML)
